@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radio - Animal</title>
+    <title>MedCompany - Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -26,8 +27,8 @@
 
             <div class="categoria categoria-tatuagem">
                 <h2>Você possui tatuagem ?</h2>
-                <div>
-                    <input type="radio">
+                <div class="grupo-opcao">
+                    <input type="radio" name="tatuagem" value="sim" id="tatuagem-sim" required>
                     <label for="">sim</label>
                 </div>
                 <div class="grupo-opcao">
@@ -39,7 +40,7 @@
             
                 <h2 class="tituulo categoria">Útilma vez que doou sangue?</h2>
                 <div class="grupo-opcao">
-                    <input type="radio" name="doacao" value="6 meses" id="doacao">
+                    <input type="radio" name="doacao" value="6 meses" id="doacao" required>
                     <label for="doacao-meses">Nos últimos 6 meses</label>
                 </div>
 
@@ -60,10 +61,8 @@
         
         </form>
     </main>
-
     <footer>
         Compyright 2022 - MedCompany
     </footer>
-
 </body>
 </html>
